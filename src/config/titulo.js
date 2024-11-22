@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Redes inalámbricas y equipos de cómputo: configuración e implementación'

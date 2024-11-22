@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Redes inalámbricas y equipos de cómputo: configuración e implementación',
+    descripcionCurso:
+      'Este componente aborda los elementos para desarrollar la configuración, instalación y administración de redes inalámbricas, junto con la integración y puesta en marcha de equipos de cómputo. El módulo, también incluye la selección y configuración de dispositivos de red, aplicación de protocolos de seguridad y optimización del rendimiento de conexiones inalámbricas, garantizando la conectividad y funcionalidad de sistemas de cómputo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -51,6 +53,12 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
       },
