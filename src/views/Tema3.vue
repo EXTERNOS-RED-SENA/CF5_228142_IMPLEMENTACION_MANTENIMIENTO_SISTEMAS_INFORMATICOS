@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.f2
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -46,7 +46,7 @@
             th.border-0 Propósito	
             th.border-0 Consideraciones clave	
             th.border-0 Ejemplos de aplicación
-        tbody
+        tbody.bg-white
           tr
             td(style="background-color: #ebf6ea ").fw-bold WEP
             td Proteger redes inalámbricas mediante cifrado básico de datos
